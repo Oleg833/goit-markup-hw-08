@@ -1,0 +1,26 @@
+.features {
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    gap: 30px;
+}
+.features__icons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: var(--button-no-active);
+    margin-bottom: 30px;
+}
+.features__title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.features__text {
+    color: var(--accent-text-color);
+    line-height: 1.71;
+}

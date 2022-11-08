@@ -1,0 +1,33 @@
+.subscribe {
+    margin-left: 93px;
+}
+.subscribe__title {
+    display: block;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.subscribe__label {
+    display: inline-block;
+    margin-right: 12px;
+}
+.subscribe__input {
+    min-width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px 16px;
+    background-color: inherit;
+}
+.subscribe__input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}

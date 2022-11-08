@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--accent-bgd-color);
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.footer__control-box {
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-between; */
+}
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__address-box {
+    flex-grow: 1;
+}
+.footer__btn {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 28px;
+    gap: 10px;
+}
+.footer__btn-icon {
+    fill: var(--primary-white-color);
+}
