@@ -136,6 +136,25 @@ ul {
           align-items: center;
 }
 
+.header__logo {
+  padding: 16px 0;
+}
+@media screen and (min-width: 480px) {
+  .header__logo {
+    padding: 26px 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header__logo {
+    padding: 26px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    padding: 24px 0 25px 0;
+  }
+}
+
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,24 +165,40 @@ ul {
   gap: 93px;
 }
 
-.header__logo {
-  padding: 24px 0 25px 0;
-}
-
-.site-nav,
-.auth-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 50px;
-}
 @media screen and (max-width: 480px) {
   .site-nav,
 .auth-nav {
     display: none;
+  }
+}
+@media screen and (max-width: 959px) {
+  .site-nav,
+.auth-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 960px) {
+  .site-nav,
+.auth-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .site-nav,
+.auth-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
   }
 }
 
@@ -222,8 +257,8 @@ ul {
   max-width: 1600px;
   margin: 0 auto;
   padding: 200px 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/new_photo.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/new_photo.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/Header-img@x1.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/Header-img@x1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,6 +282,7 @@ ul {
 }
 
 .section {
+  display: none;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -618,6 +654,7 @@ ul {
 }
 
 .footer {
+  display: none;
   background-color: var(--accent-bgd-color);
   margin: 0 auto;
   padding: 60px 0;
