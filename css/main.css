@@ -273,14 +273,14 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
-@media screen and (max-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-}
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
   }
 }
 
