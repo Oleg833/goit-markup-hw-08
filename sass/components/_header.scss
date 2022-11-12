@@ -1,11 +1,15 @@
 .header {
     border-bottom: 1px solid #ECECEC;
+
+
 }
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -16,6 +20,9 @@
 }
 .site-nav,
 .auth-nav {
+    @media screen and (max-width: 480px) {
+            display: none;
+    }
     display: flex;
     align-items: center;
     gap: 50px;
