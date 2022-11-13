@@ -22,6 +22,9 @@
         padding: 24px 0 25px 0;
     }
 }
+.header__burger-menu {
+    display: block;
+}
 .header__burger-icon {
     display: block;
     @media screen and (min-width: 768px) {
@@ -33,21 +36,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 93px;
-
-    // @media screen and (max-width: #{768px-0.02}) {
-    //     display: none;
-    // }
-    @media screen and (min-width: 768px) {
-        display: flex;
-        align-items: center;
-        gap: 93px;
-    }
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        align-items: center;
-        gap: 93px;
-    }
-
 }
 .site-nav {
 
