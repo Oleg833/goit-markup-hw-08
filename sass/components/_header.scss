@@ -4,9 +4,12 @@
 
 }
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .header__logo {
     padding: 16px 0;
@@ -21,7 +24,7 @@
 }
 .header__burger-icon {
     display: block;
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 768px) {
         display: none;
     }
 }
@@ -31,9 +34,9 @@
     justify-content: space-between;
     gap: 93px;
 
-    @media screen and (max-width: 767px) {
-        display: none;
-    }
+    // @media screen and (max-width: #{768px-0.02}) {
+    //     display: none;
+    // }
     @media screen and (min-width: 768px) {
         display: flex;
         align-items: center;
@@ -48,10 +51,7 @@
 }
 .site-nav {
 
-    @media screen and (max-width: 480px) {
-        display: none;
-    }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: #{768px-0.02}) {
         display: none;
     }
     @media screen and (min-width: 768px) {
@@ -68,7 +68,7 @@
     
 }
 .auth-nav {    
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: #{768px-0.02}) {
         display: none;
     }
     @media screen and (min-width: 768px) {
@@ -112,7 +112,7 @@
     @media screen and (max-width: 480px) {
     display: none;
     }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: #{768px-0.02}) {
         display: none;
     }
     @media screen and (min-width: 768px) {
