@@ -96,6 +96,7 @@ ul {
 
 .linkss {
   color: green;
+  z-index: 5;
 }
 
 .logo {
