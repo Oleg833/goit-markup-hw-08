@@ -1,8 +1,23 @@
 .features {
     font-size: 14px;
     text-align: left;
+
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+
+    @media screen and (max-width: #{768px-0.02}) {
+        flex-direction: column;
+    }   
+}
+.features__item {
+    
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 90px) / 4);
+    }
 }
 .features__icons-box {
     display: flex;
@@ -19,6 +34,10 @@
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
+    
+    @media screen and (max-width: #{768px-0.02}) {
+        text-align: center;
+    }
 }
 .features__text {
     color: var(--accent-text-color);

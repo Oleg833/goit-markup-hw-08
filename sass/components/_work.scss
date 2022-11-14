@@ -1,9 +1,10 @@
 .work {
     display: flex;
-    gap: 30px;
+    gap: 30px;    
 }
 .work__item {
     position: relative;
+    // width: 370px;
 }
 .work__label {
     position: absolute;

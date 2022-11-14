@@ -1,11 +1,11 @@
 .footer {
-    display: none;
     background-color: var(--accent-bgd-color);
     margin: 0 auto;
     padding: 60px 0;
 }
 .footer__control-box {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     /* justify-content: space-between; */
 }
