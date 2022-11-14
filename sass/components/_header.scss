@@ -23,19 +23,21 @@
     }
 }
 .header__burger-menu {
-    display: block;
+    display: inline-flex;
     background-color: var(--primary-white-color);
     border: transparent;
     @media screen and (min-width: 768px) {
             display: none;
     }
 }
-.header__burger-icon {
-    display: block;
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
-}
+
+// .header__burger-icon {
+//     display: ;
+//     @media screen and (min-width: 768px) {
+//         display: none;
+//     }
+// }
+
 .main-nav {
     display: flex;
     align-items: center;
