@@ -23,7 +23,10 @@
     }
 }
 .header__burger-menu {
-    display: inline-flex;
+    // display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-white-color);
     border: transparent;
     @media screen and (min-width: 768px) {
