@@ -91,7 +91,7 @@ ul {
           justify-content: center;
   background-color: transparent;
   cursor: pointer;
-  border: 1px solid moccasin;
+  border: none;
   border-radius: 50%;
   outline: none;
   margin: 0;
