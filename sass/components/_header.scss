@@ -22,17 +22,18 @@
         padding: 24px 0 25px 0;
     }
 }
-.header__burger-menu {
-    // display: inline-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-white-color);
-    border: transparent;
-    @media screen and (min-width: 768px) {
-            display: none;
-    }
-}
+
+// .header__burger-menu {
+//     // display: inline-flex;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: var(--primary-white-color);
+//     border: transparent;
+//     @media screen and (min-width: 768px) {
+//             display: none;
+//     }
+// }
 
 // .header__burger-icon {
 //     display: ;

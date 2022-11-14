@@ -203,25 +203,6 @@ ul {
   }
 }
 
-.header__burger-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: var(--primary-white-color);
-  border: transparent;
-}
-@media screen and (min-width: 768px) {
-  .header__burger-menu {
-    display: none;
-  }
-}
-
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
