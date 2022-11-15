@@ -1,11 +1,16 @@
 .network-box {
-    margin-left: 70px;
+    @media screen and (min-width: 768px) {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 0;
+    }
     @media screen and (max-width: #{1200px-0.02}) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin-right: 70px;
+        justify-content: center;        
     }
 }
 .network-box__title {
