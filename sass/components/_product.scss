@@ -1,12 +1,27 @@
 
 .product {
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     gap: 30px;
+    @media screen and (max-width: #{768px-0.02}) {
+        flex-direction: column;
+    }
+    
 }
 .product__item {
-    flex-basis: calc((100% - 60px) / 3);
+    // flex-basis: calc((100% - 60px) / 3);
     /* width: calc((100% - 60px) / 3); */
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);        
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 60px) / 3);        
+    }
+    
+            
+        
 }
 .product__link {
     display: flex;
