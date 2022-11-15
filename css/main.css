@@ -772,7 +772,12 @@ ul {
   border-radius: 0px 0px 4px 4px;
   border: transparent solid 1px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
+}
+@media screen and (min-width: 1200px) {
+  .team__box {
+    padding-bottom: 30px;
+  }
 }
 
 .team__title {
