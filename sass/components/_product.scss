@@ -9,6 +9,10 @@
     /* width: calc((100% - 60px) / 3); */
 }
 .product__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
     transition: box-shadow 250ms cubic-bezier(.4, 0, .2, 1);
 
     &:hover,
@@ -40,9 +44,11 @@
     }
 }
 .product__box {
+    flex-grow: 1;
     border: 1px solid #EEEEEE;
     border-top: none;
     padding: 20px 24px;
+    margin-bottom: auto;
 }
 .product__title {
     color: var(--primary-text-color);
