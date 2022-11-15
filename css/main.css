@@ -751,8 +751,6 @@ ul {
 
 .team__item {
   background-color: var(--primary-white-color);
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -781,11 +779,21 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
   margin-bottom: 9px;
+}
+@media screen and (min-width: 1200px) {
+  .team__title {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 .team__text {
   color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
   margin-bottom: 16px;
 }
 
