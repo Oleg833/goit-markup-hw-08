@@ -45,6 +45,7 @@
     color: var(--primary-white-color);
     transform: translateY(200%);
     transition: transform 250ms cubic-bezier(.4, 0, .2, 1);
+    height: 100%;
 
     @media screen and (min-width: 768px) {
         padding: 63px 24px;
