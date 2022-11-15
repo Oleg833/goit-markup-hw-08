@@ -802,8 +802,8 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .clients__item {
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -846,22 +846,75 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  gap: 60px;
   /* justify-content: space-between; */
 }
-
-.footer__logo {
-  margin-bottom: 20px;
+@media screen and (min-width: 768px) {
+  .footer__control-box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__control-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 0;
+  }
 }
 
 .footer__address-box {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+@media screen and (max-width: 1199.98px) {
+  .footer__address-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.footer__logo {
+  margin-bottom: 20px;
 }
 
 .footer__btn {
@@ -883,6 +936,24 @@ ul {
 .network-box {
   margin-left: 70px;
 }
+@media screen and (max-width: 1199.98px) {
+  .network-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+}
 
 .network-box__title {
   color: var(--primary-white-color);
@@ -900,6 +971,24 @@ ul {
   margin-top: 0px;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .address__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -913,11 +1002,51 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe {
+.subscribe-box {
   margin-left: 93px;
 }
+@media screen and (max-width: 1199.98px) {
+  .subscribe-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+}
 
-.subscribe__title {
+.subscribe-box__form {
+  margin: 0 auto;
+  min-width: 100%;
+}
+@media screen and (max-width: 1199.98px) {
+  .subscribe-box__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.subscribe-box__title {
   display: block;
   color: var(--primary-white-color);
   font-weight: 700;
@@ -927,13 +1056,12 @@ ul {
   margin-bottom: 20px;
 }
 
-.subscribe__label {
+.subscribe-box__label {
   display: inline-block;
-  margin-right: 12px;
 }
 
-.subscribe__input {
-  min-width: 358px;
+.subscribe-box__input {
+  min-width: 450px;
   height: 50px;
   font-size: 16px;
   line-height: 1.25;
@@ -944,33 +1072,41 @@ ul {
   border-radius: 4px;
   padding: 15px 16px;
   background-color: inherit;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-box__input {
+    margin-bottom: 0;
+    min-width: 358px;
+    margin-right: 12px;
+  }
 }
 
-.subscribe__input::-webkit-input-placeholder {
+.subscribe-box__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input::-moz-placeholder {
+.subscribe-box__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input:-ms-input-placeholder {
+.subscribe-box__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input::-ms-input-placeholder {
+.subscribe-box__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input::placeholder {
+.subscribe-box__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);

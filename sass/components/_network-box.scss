@@ -1,7 +1,13 @@
 .network-box {
     margin-left: 70px;
+    @media screen and (max-width: #{1200px-0.02}) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
 }
-
 .network-box__title {
     color: var(--primary-white-color);
     font-weight: 700;
