@@ -140,14 +140,66 @@ ul {
 .mobile-menu {
   padding: 0;
   margin: 0;
-  list-style: none;
+  margin-bottom: 32px;
 }
 
-.mobile-menu .linkss {
+.mobile-menu__item {
   display: block;
-  padding: 10px;
+}
+
+.mobile-menu__link {
+  display: block;
   color: yellow;
-  text-decoration: none;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+}
+
+.mobile-auth {
+  margin-bottom: 32px;
+}
+
+.mobile-auth__item {
+  display: block;
+}
+
+.mobile-auth__link {
+  color: var(--hover-and-focus-color);
+  display: block;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  padding: 10px;
+}
+
+.mobile-net {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.mobile-net__item {
+  display: block;
+}
+
+.mobile-net__link {
+  color: var(--hover-and-focus-color);
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  border: solid 1px moccasin;
 }
 
 .logo {
