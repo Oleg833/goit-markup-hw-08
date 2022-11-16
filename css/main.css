@@ -149,11 +149,15 @@ ul {
 
 .mobile-menu__link {
   display: block;
-  color: yellow;
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 1.18;
   letter-spacing: 0.02em;
+}
+
+.mobile-menu__link--current {
+  color: var(--hover-and-focus-color);
 }
 
 .mobile-auth {
