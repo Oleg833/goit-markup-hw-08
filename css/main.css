@@ -114,7 +114,7 @@ ul {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
+  padding: 32px 32px;
   background-color: var(--primary-white-color);
   z-index: 999;
   -webkit-transform: translateX(200%);
@@ -153,7 +153,7 @@ ul {
   font-size: 40px;
   line-height: 1.18;
   letter-spacing: 0.02em;
-  padding: 16px 0;
+  padding: 16px 8px;
 }
 
 .mobile-menu__link--current {
@@ -161,7 +161,7 @@ ul {
 }
 
 .mobile-auth {
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 
 .mobile-auth__item {
@@ -175,7 +175,7 @@ ul {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
-  padding: 16px 0;
+  padding: 16px 8px;
 }
 
 .mobile-auth__link--mailto {
@@ -194,6 +194,8 @@ ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 16px;
 }
 
@@ -212,7 +214,7 @@ ul {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  padding: 0 12px 0 8px;
+  padding: 0 10px 0 9px;
 }
 
 /* .filter__btn-item:not(:last-child) {
