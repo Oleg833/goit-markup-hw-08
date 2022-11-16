@@ -45,14 +45,17 @@
   right: 16px;  
 }
 .mobile-menu {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 93px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-.mobile-menu__item {
+.mobile-nav {
+  margin-bottom: auto;
+}
+.mobile-nav__item {
   display: block;
 }
-.mobile-menu__link {
+.mobile-nav__link {
   display: inline-block;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -61,7 +64,7 @@
   letter-spacing: 0.02em;
   padding: 16px 8px;
 }
-.mobile-menu__link--current {
+.mobile-nav__link--current {
   color: var(--hover-and-focus-color);
 }
 .mobile-auth {
