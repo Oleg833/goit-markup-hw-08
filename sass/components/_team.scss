@@ -4,9 +4,9 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    @media screen and (max-width: #{768px-0.02}) {
-        flex-direction: column;
-    }
+    // @media screen and (max-width: #{768px-0.02}) {
+    //     flex-direction: column;
+    // }
 }
 .team__item {
     background-color: var(--primary-white-color);
