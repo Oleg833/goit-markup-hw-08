@@ -1,14 +1,13 @@
 .hero-studio {
     background-color: var(--accent-bgd-color);
     margin: 0 auto;
-    padding: 118px 0;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url("../img/Header-img@x1.jpg");
+    padding: 118px 0;    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     max-width: 100%;
+    background-image: var(--lg), url("../img/Header-img@x1.jpg");
 
     @media screen and (min-width: 1200px) {        
         padding: 200px 0;
@@ -16,8 +15,7 @@
     }
     @media screen and (min-device-pixel-ratio: 2), 
     (min-resolution: 192dpi), (min-resolution: 2dppx) {        
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-         rgba(47, 48, 58, 0.4)), url("../img/Header-img@x3.jpg");
+        background-image: var(--lg), url("../img/Header-img@x3.jpg");
     }
 }
 .hero-studio__title {
