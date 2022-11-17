@@ -10,6 +10,10 @@
     --lg: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 }
 
+// $mobile: 480px;
+// $tablet: 768px;
+// $desktop: 1200px;
+
 // @mixin for-size($range) {
 //     $mobile: 480px;
 //     $tablet: 768px;
@@ -20,31 +24,26 @@
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==mobile {
 //         @media screen and (min-width: $mobile) {
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==tablet-only {
 //         @media screen and (min-width: $tablet) and (max-width: #{$desktop - 0.02}) {
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==tablet {
 //         @media screen and (min-width: $tablet) {
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==desktop {
 //         @media screen and (min-width: $desktop) {
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==retina {
 
 //         @media screen and (min-device-pixel-ratio: 2),
@@ -53,10 +52,11 @@
 //             @content;
 //         }
 //     }
-
 //     @else if $range ==notDesktop {
 //         @media screen and (max-width: #{$desktop - 0.02}) {
 //             @content;
 //         }
 //     }
 // }
+
+
