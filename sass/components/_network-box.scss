@@ -6,12 +6,13 @@
     // @media screen and (min-width: 1200px) {
     //     margin-right: 0;
     // }
-    @media screen and (max-width: #{1200px-0.02}) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;        
-    }
+    // @media screen and (max-width: #{1200px-0.02}) {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;        
+    // }
+    display: block;
 }
 .network-box__title {
     color: var(--primary-white-color);

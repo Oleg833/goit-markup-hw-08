@@ -1004,68 +1004,37 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 60px;
+  text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .footer__control-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__control-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 0;
+    text-align: left;
   }
 }
 
-@media screen and (max-width: 1199.98px) {
-  .footer__address-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__address-box {
     -webkit-box-flex: 1;
@@ -1094,22 +1063,8 @@ ul {
   fill: var(--primary-white-color);
 }
 
-@media screen and (max-width: 1199.98px) {
-  .network-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+.network-box {
+  display: block;
 }
 
 .network-box__title {
@@ -1159,23 +1114,6 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1199.98px) {
-  .subscribe-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 @media screen and (min-width: 1200px) {
   .subscribe-box {
     margin-left: 93px;
@@ -1195,23 +1133,6 @@ ul {
 .subscribe-box__form {
   margin: 0 auto;
 }
-@media screen and (max-width: 1199.98px) {
-  .subscribe-box__form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 
 .subscribe-box__input {
   height: 50px;
@@ -1224,13 +1145,8 @@ ul {
   border-radius: 4px;
   padding: 15px 16px;
   background-color: inherit;
-  width: 250px;
+  width: 100%;
   margin-bottom: 20px;
-}
-@media screen and (min-width: 480px) {
-  .subscribe-box__input {
-    width: 450px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe-box__input {
