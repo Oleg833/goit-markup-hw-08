@@ -1355,7 +1355,7 @@ ul {
     min-width: 450px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 528px;
   }
@@ -1521,6 +1521,7 @@ ul {
 
 .person-form__checkbox-agreement-link {
   color: var(--hover-and-focus-color);
+  padding-left: 10px;
 }
 
 .person-form__checkbox-label {
