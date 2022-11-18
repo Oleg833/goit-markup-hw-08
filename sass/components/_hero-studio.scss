@@ -11,28 +11,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
-    background-image: var(--lg), url("../img/Header-mobil@x1.jpg");    
+    background-image: var(--lg), url("../img/Header-mobil@1x.jpg");    
 
     @media screen and (min-device-pixel-ratio: 2), 
     (min-resolution: 192dpi), (min-resolution: 2dppx) {        
-        background-image: var(--lg), url("../img/Header-mobil@x2.jpg");
+        background-image: var(--lg), url("../img/Header-mobil@2x.jpg");
     }
     @media screen and (min-width: 768px) {
-        background-image: var(--lg), url("../img/Header-tabl@x1.jpg");
+        background-image: var(--lg), url("../img/Header-tabl@1x.jpg");
     }
     @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), 
     (min-width: 768px) and (min-resolution: 192dpi), 
     (min-width: 768px) and (min-resolution: 2dppx) {
-        background-image: var(--lg), url("../img/Header-tabl@x2.jpg");
+        background-image: var(--lg), url("../img/Header-tabl@2x.jpg");
     }
     @media screen and (min-width: 1200px) {
-        background-image: var(--lg), url("../img/Header-img@x1.jpg");
+        background-image: var(--lg), url("../img/Header-img@1x.jpg");
     }
     @media screen and 
     (min-width: 1200px) and (min-device-pixel-ratio: 2), 
     (min-width: 1200px) and (min-resolution: 192dpi), 
     (min-width: 1200px) and (min-resolution: 2dppx) {
-        background-image: var(--lg), url("../img/Header-img@x2.jpg");
+        background-image: var(--lg), url("../img/Header-img@2x.jpg");
     }    
 }
 .hero-studio__title {
@@ -42,14 +42,11 @@
     line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    max-width: 240px;
+    max-width: 360px;
     margin: 0 auto;
     margin-bottom: 30px;
 
-    @media screen and (min-width: 480px) {
-        max-width: 360px;
-    }
-    
+        
     @media screen and (min-width: 1200px) {
         max-width: 696px;
         font-size: 44px;
