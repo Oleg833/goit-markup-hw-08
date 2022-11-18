@@ -1094,11 +1094,6 @@ ul {
   fill: var(--primary-white-color);
 }
 
-@media screen and (min-width: 1200px) {
-  .network-box {
-    margin-right: 0;
-  }
-}
 @media screen and (max-width: 1199.98px) {
   .network-box {
     display: -webkit-box;
