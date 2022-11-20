@@ -13,9 +13,9 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.subscribe-box__form {
-    margin: 0 auto;
-}
+// .subscribe-box__form {
+//     margin: 0 auto;
+// }
 .subscribe-box__input {
     height: 50px;
     font-size: 16px;
@@ -28,7 +28,6 @@
     background-color: inherit;    
     width: 100%;
     margin-bottom: 20px;
-
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
         width: 358px;

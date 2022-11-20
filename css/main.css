@@ -1058,10 +1058,6 @@ ul {
   fill: var(--primary-white-color);
 }
 
-.network-box {
-  display: block;
-}
-
 .network-box__title {
   color: var(--primary-white-color);
   font-weight: 700;
@@ -1111,10 +1107,6 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.subscribe-box__form {
-  margin: 0 auto;
 }
 
 .subscribe-box__input {
