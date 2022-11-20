@@ -1032,6 +1032,9 @@ ul {
         -ms-flex-direction: row;
             flex-direction: row;
     text-align: left;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 0;
   }
 }
 
