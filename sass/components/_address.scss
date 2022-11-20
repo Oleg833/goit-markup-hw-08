@@ -2,24 +2,19 @@
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    margin-top: 0px;    
+    // margin-top: 0px;
 }
 .address__list {
-    @media screen and (max-width: #{1200px-0.02}) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 9px ;
 }
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
-}
-
+// .address__item:not(:last-child) {
+//     margin-bottom: 9px;
+// }
 .address__map {
     color: var(--primary-white-color);
 }
-
 .address__mailto,
 .address__tel {
     color: rgba(255, 255, 255, 0.6);

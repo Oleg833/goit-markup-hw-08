@@ -1011,15 +1011,15 @@ ul {
 }
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .footer__control-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1032,17 +1032,9 @@ ul {
         -ms-flex-direction: row;
             flex-direction: row;
     text-align: left;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    gap: 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer__address-box {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -1083,29 +1075,17 @@ ul {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  margin-top: 0px;
 }
 
-@media screen and (max-width: 1199.98px) {
-  .address__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
+.address__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 9px;
 }
 
 .address__map {
@@ -1119,7 +1099,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .subscribe-box {
-    margin-left: 93px;
+    margin-left: 23px;
   }
 }
 
