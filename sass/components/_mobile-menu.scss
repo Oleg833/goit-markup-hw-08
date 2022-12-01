@@ -34,7 +34,7 @@
   background-color: var(--primary-white-color);
   z-index: 999;
   transform: translateX(200%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms cubic-bezier(.4, 0, .2, 1);
 }
 .menu-container.is-open {
   transform: translateX(0);

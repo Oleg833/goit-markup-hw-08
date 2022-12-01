@@ -10,10 +10,6 @@
     --lg: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 }
 
-// $mobile: 480px;
-// $tablet: 768px;
-// $desktop: 1200px;
-
 // @mixin for-size($range) {
 //     $mobile: 480px;
 //     $tablet: 768px;
@@ -59,6 +55,10 @@
 //     }
 // }
 
+    // @include for-size(size8px) {
+
+    // }
+
     // <picture>
     //     <source media="(min-width: 1200px)" srcset="./images/member1-desktop-2x.webp 2x, ./images/member1-desktop-1x.webp 1x">
     //     <source media="(min-width: 1200px)" srcset="./images/member1-desktop-2x.jpg 2x, ./images/member1-desktop-1x.jpg 1x">
@@ -80,28 +80,28 @@
     // <source media="(max-width: 767px)" srcset="./img/p1mob@2x.jpg 2x, ./img/p1mob@1x.jpg 1x">
     // </picture>
         
-        // <picture>
-        // <source 
-        // media="(min-width: 1200px)"
-        // srcset="./img/p1@1x.webp 1x, ./img/@2x.webp 2x" type="image/webp" />        
-        // <source 
-        // media="(min-width: 1200px)" 
-        // srcset="./img/p1@1x.jpg 1x, ./img/p1@2x.jpg 2x" />
-        // <source 
-        // media="(min-width: 768px)" 
-        // srcset="./img/p1tabl@1x.webp 1x, ./img/p1tabl@2x.webp 2x" type="image/webp" />
-        // <source 
-        // media="(min-width: 768px)"
-        // srcset="./img/p1tabl@1x.jpg 1x, ./img/p1tabl@2x.jpg 2x" />
-        // <source 
-        // media="(max-width: 767px)"
-        // srcset="./img/p1mob@1x.webp 1x, ./img/p1mob@2x.webp 2x"
-        // type="image/webp"/>
-        // <source 
-        // media="(max-width: 767px)"
-        // srcset="./img/p1mob@1x.jpg 1x, ./img/p1mob@2x@2x.jpg 2x" />
-        // <img src="./images/team-image/mobile.jpg" alt="дизайнер" />
-        // </picture>
+    // <picture>
+    //     <source 
+    //     media="(min-width: 1200px)"
+    //     srcset="./img/p1@1x.webp 1x, ./img/@2x.webp 2x" type="image/webp" />        
+    //     <source 
+    //     media="(min-width: 1200px)" 
+    //     srcset="./img/p1@1x.jpg 1x, ./img/p1@2x.jpg 2x" />
+    //     <source 
+    //     media="(min-width: 768px)" 
+    //     srcset="./img/p1tabl@1x.webp 1x, ./img/p1tabl@2x.webp 2x" type="image/webp" />
+    //     <source 
+    //     media="(min-width: 768px)"
+    //     srcset="./img/p1tabl@1x.jpg 1x, ./img/p1tabl@2x.jpg 2x" />
+    //     <source 
+    //     media="(max-width: 767px)"
+    //     srcset="./img/p1mob@1x.webp 1x, ./img/p1mob@2x.webp 2x"
+    //     type="image/webp"/>
+    //     <source 
+    //     media="(max-width: 767px)"
+    //     srcset="./img/p1mob@1x.jpg 1x, ./img/p1mob@2x@2x.jpg 2x" />
+    //     <img src="./images/team-image/mobile.jpg" alt="дизайнер" />
+    // </picture>
 
 // <picture>
 // <source media="(min-width: 1200px)"
